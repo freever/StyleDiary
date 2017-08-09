@@ -1,0 +1,22 @@
+﻿
+using Windows.ApplicationModel.Activation;
+using Windows.UI.Xaml.Controls;
+using MvvmCross.Core.ViewModels;
+using MxSync.Forms.Windows.Setup;
+
+namespace StyleDiary.UWP
+{
+    public class Setup : MxFormsWindowsSetup
+    {
+
+        public Setup(Frame rootFrame, LaunchActivatedEventArgs launchActivatedEventArgs)
+            : base(rootFrame, launchActivatedEventArgs)
+        {
+        }
+
+        protected override IMvxApplication CreateApp()
+        {
+            return new StyleDiaryApp();
+        }
+    }
+}
