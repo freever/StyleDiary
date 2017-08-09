@@ -1,26 +1,23 @@
-﻿using System;
-
-using Android.App;
-using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+﻿using Android.App;
 using Android.OS;
+using MvvmCross.Core.ViewModels;
+using MvvmCross.Forms.Core;
+using MvvmCross.Platform;
+using MxSync.Forms.Android;
 
 namespace StyleDiary.Droid
 {
-    [Activity(Label = "StyleDiary", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
+    [Activity]
+    public class MainActivity : MxFormsMainActivity
     {
         protected override void OnCreate(Bundle bundle)
         {
-            TabLayoutResource = Resource.Layout.Tabbar;
-            ToolbarResource = Resource.Layout.Toolbar;
-
             base.OnCreate(bundle);
 
-            global::Xamarin.Forms.Forms.Init(this, bundle);
-            LoadApplication(new App());
+            var app = new MvxFormsApplication();
+            LoadApplication(app);
+
+            Mvx.Resolve<IMvxAppStart>().Start();
         }
     }
 }

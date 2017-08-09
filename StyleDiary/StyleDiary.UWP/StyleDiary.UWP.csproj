@@ -154,7 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\StyleDiary\StyleDiary.csproj">
-      <Project>{cb52af27-5918-436f-beec-ef859ec13a1a}</Project>
+      <Project>{69339ba9-c6d4-44e8-943e-9775429aac21}</Project>
       <Name>StyleDiary</Name>
     </ProjectReference>
   </ItemGroup>
