@@ -88,8 +88,6 @@ Global
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.AppStore|x86.Build.0 = Release|Any CPU
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.AppStore|x86.Deploy.0 = Release|Any CPU
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_develop|Any CPU.ActiveCfg = Debug|Any CPU
-		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_develop|Any CPU.Build.0 = Debug|Any CPU
-		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_develop|Any CPU.Deploy.0 = Debug|Any CPU
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_develop|ARM.ActiveCfg = Bitrise_develop|Any CPU
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_develop|ARM.Build.0 = Bitrise_develop|Any CPU
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_develop|ARM.Deploy.0 = Bitrise_develop|Any CPU
@@ -104,8 +102,6 @@ Global
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_develop|x64.Deploy.0 = Bitrise_develop|Any CPU
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_develop|x86.ActiveCfg = Bitrise_develop|Any CPU
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_release|Any CPU.ActiveCfg = Release|Any CPU
-		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_release|Any CPU.Build.0 = Release|Any CPU
-		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_release|Any CPU.Deploy.0 = Release|Any CPU
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_release|ARM.ActiveCfg = Bitrise_release|Any CPU
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_release|ARM.Build.0 = Bitrise_release|Any CPU
 		{49CA8989-EF7F-4B89-A4E9-7FE3D7754D67}.Bitrise_release|ARM.Deploy.0 = Bitrise_release|Any CPU
@@ -179,8 +175,8 @@ Global
 		{69339BA9-C6D4-44E8-943E-9775429AAC21}.AppStore|x64.Build.0 = Release|Any CPU
 		{69339BA9-C6D4-44E8-943E-9775429AAC21}.AppStore|x86.ActiveCfg = Release|Any CPU
 		{69339BA9-C6D4-44E8-943E-9775429AAC21}.AppStore|x86.Build.0 = Release|Any CPU
-		{69339BA9-C6D4-44E8-943E-9775429AAC21}.Bitrise_develop|Any CPU.ActiveCfg = Debug|Any CPU
-		{69339BA9-C6D4-44E8-943E-9775429AAC21}.Bitrise_develop|Any CPU.Build.0 = Debug|Any CPU
+		{69339BA9-C6D4-44E8-943E-9775429AAC21}.Bitrise_develop|Any CPU.ActiveCfg = Release|Any CPU
+		{69339BA9-C6D4-44E8-943E-9775429AAC21}.Bitrise_develop|Any CPU.Build.0 = Release|Any CPU
 		{69339BA9-C6D4-44E8-943E-9775429AAC21}.Bitrise_develop|ARM.ActiveCfg = Bitrise_develop|Any CPU
 		{69339BA9-C6D4-44E8-943E-9775429AAC21}.Bitrise_develop|ARM.Build.0 = Bitrise_develop|Any CPU
 		{69339BA9-C6D4-44E8-943E-9775429AAC21}.Bitrise_develop|iPhone.ActiveCfg = Bitrise_develop|Any CPU
@@ -325,7 +321,8 @@ Global
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.AppStore|x64.ActiveCfg = AppStore|iPhone
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.AppStore|x86.ActiveCfg = AppStore|iPhone
-		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_develop|Any CPU.ActiveCfg = Debug|iPhone
+		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_develop|Any CPU.ActiveCfg = Ad-Hoc|iPhone
+		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_develop|Any CPU.Build.0 = Ad-Hoc|iPhone
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_develop|ARM.ActiveCfg = Bitrise_develop|iPhone
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_develop|iPhone.ActiveCfg = Bitrise_develop|iPhone
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_develop|iPhone.Build.0 = Bitrise_develop|iPhone
@@ -334,7 +331,8 @@ Global
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_develop|x64.ActiveCfg = Bitrise_develop|iPhone
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_develop|x86.ActiveCfg = Bitrise_develop|iPhone
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_develop|x86.Build.0 = Bitrise_develop|iPhone
-		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_release|Any CPU.ActiveCfg = Release|iPhone
+		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_release|Any CPU.ActiveCfg = AppStore|iPhone
+		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_release|Any CPU.Build.0 = AppStore|iPhone
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_release|ARM.ActiveCfg = Bitrise_release|iPhone
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_release|iPhone.ActiveCfg = Bitrise_release|iPhone
 		{3CD9C10B-0F82-4963-8DD0-B309D87B6CAF}.Bitrise_release|iPhone.Build.0 = Bitrise_release|iPhone
