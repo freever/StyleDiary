@@ -34,6 +34,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bitrise_develop|AnyCPU'">
+    <OutputPath>bin\Bitrise_develop\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bitrise_release|AnyCPU'">
+    <OutputPath>bin\Bitrise_release\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Pages\ColourPickerPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

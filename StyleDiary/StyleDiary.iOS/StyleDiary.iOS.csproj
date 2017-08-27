@@ -87,6 +87,18 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bitrise_develop|iPhoneSimulator'">
+    <OutputPath>bin\iPhoneSimulator\Bitrise_develop\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bitrise_develop|iPhone'">
+    <OutputPath>bin\iPhone\Bitrise_develop\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bitrise_release|iPhoneSimulator'">
+    <OutputPath>bin\iPhoneSimulator\Bitrise_release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bitrise_release|iPhone'">
+    <OutputPath>bin\iPhone\Bitrise_release\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />

@@ -48,6 +48,12 @@
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bitrise_develop|AnyCPU'">
+    <OutputPath>bin\Bitrise_develop\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bitrise_release|AnyCPU'">
+    <OutputPath>bin\Bitrise_release\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Acr.DeviceInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Acr.DeviceInfo.4.0.2\lib\MonoAndroid10\Acr.DeviceInfo.dll</HintPath>
