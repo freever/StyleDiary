@@ -21,8 +21,10 @@
     "Plugin.Permissions": "2.0.1",
     "SkiaSharp": "1.59.1",
     "SkiaSharp.Views.Forms": "1.59.1",
+    "Xam.Plugin.Geolocator": "4.0.1",
     "Xam.Plugin.Media": "3.0.1",
-    "Xamarin.Forms": "2.3.4.247"
+    "Xamarin.Forms": "2.3.4.247",
+    "ZXing.Net.Mobile.Forms": "2.2.9"
   },
   "frameworks": {
     "uap10.0.10240": {}
