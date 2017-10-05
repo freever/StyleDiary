@@ -4114,6 +4114,7 @@ namespace StyleDiary.Droid
 			global::MxSync.Android.Resource.Id.auto = global::StyleDiary.Droid.Resource.Id.auto;
 			global::MxSync.Android.Resource.Id.beginning = global::StyleDiary.Droid.Resource.Id.beginning;
 			global::MxSync.Android.Resource.Id.bottom = global::StyleDiary.Droid.Resource.Id.bottom;
+			global::MxSync.Android.Resource.Id.busy_dialog_indicator = global::StyleDiary.Droid.Resource.Id.busy_dialog_indicator;
 			global::MxSync.Android.Resource.Id.buttonPanel = global::StyleDiary.Droid.Resource.Id.buttonPanel;
 			global::MxSync.Android.Resource.Id.cancel_action = global::StyleDiary.Droid.Resource.Id.cancel_action;
 			global::MxSync.Android.Resource.Id.center = global::StyleDiary.Droid.Resource.Id.center;
@@ -4332,6 +4333,7 @@ namespace StyleDiary.Droid
 			global::MxSync.Android.Resource.Layout.mr_controller_volume_item = global::StyleDiary.Droid.Resource.Layout.mr_controller_volume_item;
 			global::MxSync.Android.Resource.Layout.mr_playback_control = global::StyleDiary.Droid.Resource.Layout.mr_playback_control;
 			global::MxSync.Android.Resource.Layout.mr_volume_control = global::StyleDiary.Droid.Resource.Layout.mr_volume_control;
+			global::MxSync.Android.Resource.Layout.MxDefaultBusyView = global::StyleDiary.Droid.Resource.Layout.MxDefaultBusyView;
 			global::MxSync.Android.Resource.Layout.notification_action = global::StyleDiary.Droid.Resource.Layout.notification_action;
 			global::MxSync.Android.Resource.Layout.notification_action_tombstone = global::StyleDiary.Droid.Resource.Layout.notification_action_tombstone;
 			global::MxSync.Android.Resource.Layout.notification_media_action = global::StyleDiary.Droid.Resource.Layout.notification_media_action;
@@ -8207,8 +8209,8 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c0010
 			public const int MvxBindingTagUnique = 2131492880;
 			
-			// aapt resource value: 0x7f0c00a2
-			public const int action0 = 2131493026;
+			// aapt resource value: 0x7f0c00a3
+			public const int action0 = 2131493027;
 			
 			// aapt resource value: 0x7f0c0068
 			public const int action_bar = 2131492968;
@@ -8231,17 +8233,17 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c0045
 			public const int action_bar_title = 2131492933;
 			
-			// aapt resource value: 0x7f0c009f
-			public const int action_container = 2131493023;
+			// aapt resource value: 0x7f0c00a0
+			public const int action_container = 2131493024;
 			
 			// aapt resource value: 0x7f0c0069
 			public const int action_context_bar = 2131492969;
 			
-			// aapt resource value: 0x7f0c00a6
-			public const int action_divider = 2131493030;
+			// aapt resource value: 0x7f0c00a7
+			public const int action_divider = 2131493031;
 			
-			// aapt resource value: 0x7f0c00a0
-			public const int action_image = 2131493024;
+			// aapt resource value: 0x7f0c00a1
+			public const int action_image = 2131493025;
 			
 			// aapt resource value: 0x7f0c0003
 			public const int action_menu_divider = 2131492867;
@@ -8258,11 +8260,11 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c0047
 			public const int action_mode_close_button = 2131492935;
 			
-			// aapt resource value: 0x7f0c00a1
-			public const int action_text = 2131493025;
+			// aapt resource value: 0x7f0c00a2
+			public const int action_text = 2131493026;
 			
-			// aapt resource value: 0x7f0c00af
-			public const int actions = 2131493039;
+			// aapt resource value: 0x7f0c00b0
+			public const int actions = 2131493040;
 			
 			// aapt resource value: 0x7f0c0048
 			public const int activity_chooser_view_content = 2131492936;
@@ -8288,11 +8290,14 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c002a
 			public const int bottom = 2131492906;
 			
+			// aapt resource value: 0x7f0c009f
+			public const int busy_dialog_indicator = 2131493023;
+			
 			// aapt resource value: 0x7f0c004f
 			public const int buttonPanel = 2131492943;
 			
-			// aapt resource value: 0x7f0c00a3
-			public const int cancel_action = 2131493027;
+			// aapt resource value: 0x7f0c00a4
+			public const int cancel_action = 2131493028;
 			
 			// aapt resource value: 0x7f0c0032
 			public const int center = 2131492914;
@@ -8306,8 +8311,8 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c005f
 			public const int checkbox = 2131492959;
 			
-			// aapt resource value: 0x7f0c00ab
-			public const int chronometer = 2131493035;
+			// aapt resource value: 0x7f0c00ac
+			public const int chronometer = 2131493036;
 			
 			// aapt resource value: 0x7f0c003b
 			public const int clip_horizontal = 2131492923;
@@ -8318,8 +8323,8 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c0026
 			public const int collapseActionView = 2131492902;
 			
-			// aapt resource value: 0x7f0c00b6
-			public const int contentFrame = 2131493046;
+			// aapt resource value: 0x7f0c00b7
+			public const int contentFrame = 2131493047;
 			
 			// aapt resource value: 0x7f0c0052
 			public const int contentPanel = 2131492946;
@@ -8360,8 +8365,8 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c0023
 			public const int end = 2131492899;
 			
-			// aapt resource value: 0x7f0c00b5
-			public const int end_padder = 2131493045;
+			// aapt resource value: 0x7f0c00b6
+			public const int end_padder = 2131493046;
 			
 			// aapt resource value: 0x7f0c002c
 			public const int enterAlways = 2131492908;
@@ -8402,8 +8407,8 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c004d
 			public const int icon = 2131492941;
 			
-			// aapt resource value: 0x7f0c00b0
-			public const int icon_group = 2131493040;
+			// aapt resource value: 0x7f0c00b1
+			public const int icon_group = 2131493041;
 			
 			// aapt resource value: 0x7f0c0027
 			public const int ifRoom = 2131492903;
@@ -8414,8 +8419,8 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c0084
 			public const int indicator = 2131492996;
 			
-			// aapt resource value: 0x7f0c00ac
-			public const int info = 2131493036;
+			// aapt resource value: 0x7f0c00ad
+			public const int info = 2131493037;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int item_touch_helper_previous_elevation = 2131492864;
@@ -8426,11 +8431,11 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c0036
 			public const int left = 2131492918;
 			
-			// aapt resource value: 0x7f0c00b1
-			public const int line1 = 2131493041;
+			// aapt resource value: 0x7f0c00b2
+			public const int line1 = 2131493042;
 			
-			// aapt resource value: 0x7f0c00b3
-			public const int line3 = 2131493043;
+			// aapt resource value: 0x7f0c00b4
+			public const int line3 = 2131493044;
 			
 			// aapt resource value: 0x7f0c0011
 			public const int listMode = 2131492881;
@@ -8438,11 +8443,11 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c004c
 			public const int list_item = 2131492940;
 			
-			// aapt resource value: 0x7f0c00b8
-			public const int masked = 2131493048;
+			// aapt resource value: 0x7f0c00b9
+			public const int masked = 2131493049;
 			
-			// aapt resource value: 0x7f0c00a5
-			public const int media_actions = 2131493029;
+			// aapt resource value: 0x7f0c00a6
+			public const int media_actions = 2131493030;
 			
 			// aapt resource value: 0x7f0c0024
 			public const int middle = 2131492900;
@@ -8540,14 +8545,14 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c0012
 			public const int normal = 2131492882;
 			
-			// aapt resource value: 0x7f0c00ae
-			public const int notification_background = 2131493038;
+			// aapt resource value: 0x7f0c00af
+			public const int notification_background = 2131493039;
+			
+			// aapt resource value: 0x7f0c00a9
+			public const int notification_main_column = 2131493033;
 			
 			// aapt resource value: 0x7f0c00a8
-			public const int notification_main_column = 2131493032;
-			
-			// aapt resource value: 0x7f0c00a7
-			public const int notification_main_column_container = 2131493031;
+			public const int notification_main_column_container = 2131493032;
 			
 			// aapt resource value: 0x7f0c0083
 			public const int pager = 2131492995;
@@ -8573,11 +8578,11 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c0037
 			public const int right = 2131492919;
 			
-			// aapt resource value: 0x7f0c00ad
-			public const int right_icon = 2131493037;
+			// aapt resource value: 0x7f0c00ae
+			public const int right_icon = 2131493038;
 			
-			// aapt resource value: 0x7f0c00a9
-			public const int right_side = 2131493033;
+			// aapt resource value: 0x7f0c00aa
+			public const int right_side = 2131493034;
 			
 			// aapt resource value: 0x7f0c001d
 			public const int screen = 2131492893;
@@ -8672,8 +8677,8 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c0038
 			public const int start = 2131492920;
 			
-			// aapt resource value: 0x7f0c00a4
-			public const int status_bar_latest_event_content = 2131493028;
+			// aapt resource value: 0x7f0c00a5
+			public const int status_bar_latest_event_content = 2131493029;
 			
 			// aapt resource value: 0x7f0c0062
 			public const int submenuarrow = 2131492962;
@@ -8684,11 +8689,11 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c0013
 			public const int tabMode = 2131492883;
 			
-			// aapt resource value: 0x7f0c00b4
-			public const int text = 2131493044;
+			// aapt resource value: 0x7f0c00b5
+			public const int text = 2131493045;
 			
-			// aapt resource value: 0x7f0c00b2
-			public const int text2 = 2131493042;
+			// aapt resource value: 0x7f0c00b3
+			public const int text2 = 2131493043;
 			
 			// aapt resource value: 0x7f0c0056
 			public const int textSpacerNoButtons = 2131492950;
@@ -8705,8 +8710,8 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c000d
 			public const int textinput_error = 2131492877;
 			
-			// aapt resource value: 0x7f0c00aa
-			public const int time = 2131493034;
+			// aapt resource value: 0x7f0c00ab
+			public const int time = 2131493035;
 			
 			// aapt resource value: 0x7f0c004e
 			public const int title = 2131492942;
@@ -8744,8 +8749,8 @@ namespace StyleDiary.Droid
 			// aapt resource value: 0x7f0c000e
 			public const int view_offset_helper = 2131492878;
 			
-			// aapt resource value: 0x7f0c00b7
-			public const int visible = 2131493047;
+			// aapt resource value: 0x7f0c00b8
+			public const int visible = 2131493048;
 			
 			// aapt resource value: 0x7f0c0097
 			public const int volume_item_container = 2131493015;
@@ -8985,73 +8990,76 @@ namespace StyleDiary.Droid
 			public const int mr_volume_control = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_action = 2130903088;
+			public const int MxDefaultBusyView = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_action_tombstone = 2130903089;
+			public const int notification_action = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_media_action = 2130903090;
+			public const int notification_action_tombstone = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_media_cancel_action = 2130903091;
+			public const int notification_media_action = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_big_media = 2130903092;
+			public const int notification_media_cancel_action = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_big_media_custom = 2130903093;
+			public const int notification_template_big_media = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_big_media_narrow = 2130903094;
+			public const int notification_template_big_media_custom = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_big_media_narrow_custom = 2130903095;
+			public const int notification_template_big_media_narrow = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_custom_big = 2130903096;
+			public const int notification_template_big_media_narrow_custom = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_icon_group = 2130903097;
+			public const int notification_template_custom_big = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_lines_media = 2130903098;
+			public const int notification_template_icon_group = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_media = 2130903099;
+			public const int notification_template_lines_media = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_media_custom = 2130903100;
+			public const int notification_template_media = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_part_chronometer = 2130903101;
+			public const int notification_template_media_custom = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int notification_template_part_time = 2130903102;
+			public const int notification_template_part_chronometer = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int select_dialog_item_material = 2130903103;
+			public const int notification_template_part_time = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int select_dialog_multichoice_material = 2130903104;
+			public const int select_dialog_item_material = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int select_dialog_singlechoice_material = 2130903105;
+			public const int select_dialog_multichoice_material = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int SplashScreen = 2130903106;
+			public const int select_dialog_singlechoice_material = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int support_simple_spinner_dropdown_item = 2130903107;
+			public const int SplashScreen = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int vertical_viewpager = 2130903108;
+			public const int support_simple_spinner_dropdown_item = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int zxingscanneractivitylayout = 2130903109;
+			public const int vertical_viewpager = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int zxingscannerfragmentlayout = 2130903110;
+			public const int zxingscanneractivitylayout = 2130903110;
+			
+			// aapt resource value: 0x7f030047
+			public const int zxingscannerfragmentlayout = 2130903111;
 			
 			static Layout()
 			{

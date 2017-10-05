@@ -1,7 +1,7 @@
 ﻿{
   "dependencies": {
     "Acr.DeviceInfo": "4.0.2",
-    "Maxxor.PCL": "0.3.91",
+    "Maxxor.PCL": "0.3.106",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
     "modernhttpclient": "2.4.2",
     "MvvmCross": "5.1.1",
@@ -10,10 +10,10 @@
     "MvvmCross.Forms": "5.1.1",
     "MvvmCross.Platform": "5.1.1",
     "MvvmCross.Plugin.Messenger": "5.1.1",
-    "MxSync": "0.8.3.193",
-    "MxSync.Forms": "0.8.3.193",
-    "MxSync.Forms.Windows": "0.8.3.173",
-    "MxSync.Windows": "0.8.3.173",
+    "MxSync": "0.8.4.64",
+    "MxSync.Forms": "0.8.4.64",
+    "MxSync.Forms.Windows": "0.8.4.59",
+    "MxSync.Windows": "0.8.4.59",
     "Newtonsoft.Json": "10.0.3",
     "NodaTime": "2.0.0-alpha20160729",
     "PCLCrypto": "2.0.147",
