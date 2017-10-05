@@ -24,6 +24,8 @@
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
 	<string>StyleDiary</string>
+	<key>CFBundleShortVersionString</key>
+    <string>dev</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.maxxor.stylediary</string>
 	<key>CFBundleVersion</key>
