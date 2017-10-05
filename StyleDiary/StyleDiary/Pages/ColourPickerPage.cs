@@ -12,7 +12,8 @@ namespace StyleDiary.Pages
 
         public ColourPickerPage()
         {
-            
+            NavigationPage.SetHasNavigationBar(this, false);
+
             Slider redSlider = new Slider(0, 255, 100);
             redSlider.ValueChanged += (sender, args) =>
             {
