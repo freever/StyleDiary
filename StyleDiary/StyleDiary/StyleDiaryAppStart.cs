@@ -1,4 +1,5 @@
-﻿using MvvmCross.Core.ViewModels;
+﻿using System.Threading;
+using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
 using MxSync.Enums;
 using MxSync.Forms.Services;
@@ -12,7 +13,7 @@ namespace StyleDiary
         {
 
             var navigationService = Mvx.Resolve<IMxFormsNavigationService>();
-            ((MxFormsNavigationService)navigationService).ShowView(typeof(ColourPickerViewModel), MxViewFrame.None);
+            navigationService.NavigateAsync<ColourPickerViewModel>(MxViewFrame.FullScreen, CancellationToken.None, null);;
         }
     }
 }
