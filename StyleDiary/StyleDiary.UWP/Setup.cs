@@ -10,7 +10,7 @@ namespace StyleDiary.UWP
     {
 
         public Setup(Frame rootFrame, LaunchActivatedEventArgs launchActivatedEventArgs)
-            : base(rootFrame, launchActivatedEventArgs)
+            : base(rootFrame, launchActivatedEventArgs, typeof(StyleDiaryApp))
         {
         }
 
