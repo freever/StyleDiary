@@ -1,6 +1,8 @@
 ﻿using MvvmCross.Core.ViewModels;
 using MvvmCross.iOS.Platform;
+using MvvmCross.Platform;
 using MxSync.Forms.iOS.Setup;
+using MxSync.Services.IocService;
 using UIKit;
 
 namespace StyleDiary.iOS
@@ -13,6 +15,7 @@ namespace StyleDiary.iOS
 
         protected override IMvxApplication CreateApp()
         {
+            Mvx.RegisterSingleton<IMxIocService>(new MxIocService());
             return new StyleDiaryApp();
         }
     }
