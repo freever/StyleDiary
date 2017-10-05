@@ -333,6 +333,9 @@
     <ImageAsset Include="Resources\Media.xcassets\AppIcons.appiconset\152.152.png">
       <InProject>false</InProject>
     </ImageAsset>
+    <ImageAsset Include="Resources\Media.xcassets\AppIcons.appiconset\167x167.png">
+      <InProject>false</InProject>
+    </ImageAsset>
     <ImageAsset Include="Resources\Media.xcassets\AppIcons.appiconset\180x180.png">
       <InProject>false</InProject>
     </ImageAsset>
