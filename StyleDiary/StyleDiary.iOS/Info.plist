@@ -52,5 +52,13 @@
 	<string>Resources/Media.xcassets/LaunchImages.launchimage</string>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Media.xcassets/AppIcons.appiconset</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+    <string>Location is used for geolocation services.</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>Calendar is used for scheduling.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Camera is used to take photos for customer profiles.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Photo library is used to load photos into customer profile.</string>
 </dict>
 </plist>
