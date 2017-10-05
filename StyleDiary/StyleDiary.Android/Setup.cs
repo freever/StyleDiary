@@ -6,7 +6,7 @@ namespace StyleDiary.Droid
 {
     public class Setup : MxFormsAndroidSetup
     {
-        public Setup(Context applicationContext) : base(applicationContext)
+        public Setup(Context applicationContext) : base(applicationContext, typeof(StyleDiaryApp))
         {
         }
 
