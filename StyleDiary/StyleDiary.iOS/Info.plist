@@ -64,5 +64,6 @@
     <key>NSPhotoLibraryUsageDescription</key>
     <string>Photo library is used to load photos into customer profile.</string>
     <key>UIRequiresFullScreen</key>
+    <true/>
 </dict>
 </plist>
