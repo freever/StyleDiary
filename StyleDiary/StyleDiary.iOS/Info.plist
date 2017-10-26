@@ -51,6 +51,7 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>XSLaunchImageAssets</key>
+	<key>ITSAppUsesNonExemptEncryption</key> <false/>
 	<string>Resources/Media.xcassets/LaunchImages.launchimage</string>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Media.xcassets/AppIcons.appiconset</string>
@@ -62,5 +63,6 @@
     <string>Camera is used to take photos for customer profiles.</string>
     <key>NSPhotoLibraryUsageDescription</key>
     <string>Photo library is used to load photos into customer profile.</string>
+    <key>UIRequiresFullScreen</key>
 </dict>
 </plist>
