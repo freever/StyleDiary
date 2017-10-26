@@ -341,14 +341,6 @@
     <ImageAsset Include="Resources\Media.xcassets\LaunchImages.launchimage\Contents.json">
       <InProject>false</InProject>
     </ImageAsset>
-    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Contents.json" />
-    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-60%402x.png" />
-    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-76.png" />
-    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-76%402x.png" />
-    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small.png" />
-    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small%402x.png" />
-    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small-40.png" />
-    <ImageAsset Include="Resources\Media.xcassets\AppIcon.appiconset\Icon-Small-40%402x.png" />
     <ImageAsset Include="Resources\Media.xcassets\LaunchImage.launchimage\Contents.json" />
     <ImageAsset Include="Resources\Media.xcassets\LaunchImage.launchimage\Default.png" />
     <ImageAsset Include="Resources\Media.xcassets\LaunchImage.launchimage\Default%402x.png" />
